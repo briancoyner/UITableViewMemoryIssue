@@ -11,7 +11,7 @@ _bamboo_build
 *.pbxuser
 
 # Xcode 5
-xcuserdata
+xcuserdata/
 project.xcworkspace/
 *.xccheckout
 
@@ -20,7 +20,7 @@ project.xcworkspace/
 *.swp
 
 # AppCode
-.idea/*
+.idea/
 !.idea/codeStyleSettings.xml
 atlassian-ide-plugin.xml
 

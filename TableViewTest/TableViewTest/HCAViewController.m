@@ -29,7 +29,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[self demoTableViewCellIdentifier ]];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[self demoTableViewCellIdentifier] forIndexPath:indexPath];
     [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
     [[cell textLabel] setText:@"UITableView Memory Issue"];
 
